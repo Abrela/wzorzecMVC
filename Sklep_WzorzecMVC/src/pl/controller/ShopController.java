@@ -52,10 +52,12 @@ public class ShopController extends HttpServlet {
             mean = PriceCalculator.calculateMean(products);
             sum = PriceCalculator.calculatePrice(products);
 
+            request.setCharacterEncoding("UTF-8");
             request.setAttribute("products", products);
             request.setAttribute("sum", sum);
             request.setAttribute("mean", mean);
             request.getRequestDispatcher("summary.jsp").forward(request, response);
+            response.setCharacterEncoding("UTF-8");
             response.sendRedirect("summary.jsp");
         }
     }

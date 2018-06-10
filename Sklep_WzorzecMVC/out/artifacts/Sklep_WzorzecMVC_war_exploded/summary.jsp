@@ -9,7 +9,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <meta charset="UTF-8">
        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
         <title>Podsumowanie</title>
 </head>
@@ -65,7 +64,7 @@
 <h2>Suma: <%=request.getAttribute("sum")+" zl"%></h2><br>
 <h2>Srednia cena za produkt: <%=request.getAttribute("mean")+" zl"%></h2>
 
-<a href="index.jsp">Wróć do strony głównej</a>
+<a href="index.jsp">Dalsze zakupy</a>
 
 </body>
 </html>

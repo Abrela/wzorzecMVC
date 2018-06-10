@@ -13,6 +13,7 @@
 </head>
 <body>
 <h1>Dodaj coś do koszyka</h1>
+<img src="http://www.tnsglobal.pl/coslychac/files/2015/09/zakupy.jpg"><br>
 <a href="index.jsp">Wróć do strony głównej</a>
 </body>
 </html>
